@@ -31,15 +31,6 @@
 		// Transitions supported?
 			if (skel.canUse('transition')) {
 
-				// Add (and later, on load, remove) "loading" class.
-					$body.addClass('loading');
-
-					$window.on('load', function() {
-						window.setTimeout(function() {
-							$body.removeClass('loading');
-						}, 100);
-					});
-
 				// Prevent transitions/animations on resize.
 					var resizeTimeout;
 
