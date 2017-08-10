@@ -1,6 +1,6 @@
 console.log("\n %c APlayer 1.6.1 %c http://aplayer.js.org \n\n","color: #fadfa3; background: #030307; padding:5px 0;","background: #fadfa3; padding:5px 0;");
 
-require('./APlayer.scss');
+require('https://cdn.rawgit.com/mchien477/cutun/master/music/APlayer.scss');
 
 let instances = [];
 
