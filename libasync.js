@@ -1256,9 +1256,7 @@ function GalleryObject(params) {
 		var lower_panel = "";
 
 		if (this.args.plan_name == "free") {
-			lower_panel = '<div style="clear:both;"><a href="//www.cincopa.com/?utm_campaign=viral_pro_skins&afc=mplp1" style="vertical-align: middle;display: inline-block;"><img style="padding:0px;margin:0px;border:0px;width:236px;height:30px;" border=0 alt="Powered By Cincopa" src="' + cincopa._ROOT_LOADER_STATIC + 'bycincopa.png" /></a>';
-			lower_panel += '<div style="display: inline-block; vertical-align: middle; margin: 0 .2em 0 1em; position: relative; margin-bottom: 5px;"><div class="g-plusone" data-size="medium" data-href="https://plus.google.com/111463929396015329416"></div></div>';
-			lower_panel += '<iframe allowtransparency="true" frameborder="0" scrolling="no" style="vertical-align: middle;overflow:hidden;border:0px none;width:92px;height:20px;margin-bottom:5px;" src="https://www.facebook.com/plugins/like.php?href=' + encodeURIComponent('https://www.facebook.com/cincopa') + '&layout=button_count&show_faces=false&width=100&action=like&font=arial&layout=button_count"></iframe>';
+			lower_panel = '<div id="footerr" style="clear:both;"><a href="//cutun.ga" style="vertical-align: middle;display: inline-block;"><img style="padding:0px;margin:0px;border:0px;width:236px;height:30px;" border=0 alt="Powered By Cutun" src="https://1.bp.blogspot.com/-G4GHR1eZKQ4/WYsQkYchoqI/AAAAAAAAAhw/GhdToqPr7AI3UVIqeuQvt9WUdhSG_7X-QCLcBGAs/s1600/cutun.png" /></a>';
 			lower_panel += '</div>';
 		}
 
